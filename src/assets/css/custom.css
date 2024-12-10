@@ -1,0 +1,608 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.custom-nav{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 0 200px;
+    z-index: 100;
+    background-color: #05291C;
+}
+.default-padding{
+    padding: 150px 200px 200px 200px;
+}
+.routers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.router-link{
+    color: black;
+    padding: 0 20px;
+    font-size: 17px;
+}
+.menu-responsive > i {
+    font-size: 35px;
+    margin-right: -10px;
+    display: none;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.play-apple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roulette{
+    display: flex;
+    justify-content: center;
+}
+.roleta{
+    max-width: 700px;
+}
+.appletoapple{
+    max-width: 700px;
+}
+.play-apple > img{
+    margin-top: 100px;
+}
+.custom-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #05291C;
+}
+.custom-footer > div{
+    padding: 0 200px;
+}
+.footer-nav > h6{
+    padding: 10px;
+    font-size: 16px;
+}
+.banner-2{
+    max-width: 880px;
+}
+.breadcrumbs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background-color: #05291C;
+    padding-top: 50px;
+}
+.bread-description > h1{
+    font-size: 45px;
+}
+.bread-description > span{
+    font-size: 15px;
+}
+.history{
+    height: 100vh;
+    width: 61%;
+    margin: auto;
+    position: relative;
+}
+.history-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.history-links > div{
+    padding: 30px;
+    width: 32%;
+    border: 2px solid white;
+    box-shadow: -4.828px -4.828px 12px 0 rgba(255, 200, 39, .4), 3px 5px 15px 0 rgba(255, 82, 1, .2);
+    border-radius: 10px;
+}
+.history-nav{
+    margin: auto;
+    width: 60%;
+    margin-top: 30px;
+}
+.history-table{
+    max-height: 550px;
+}
+.history-table > table > thead > tr{
+    position: sticky;
+    top: 0;
+}
+.wallet{
+    width: 100%;
+    padding: 0 200px;
+    margin-bottom: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn-value > button{
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.player-details{
+    background-color: #05291C;
+    height: 254px;
+    width: 100%;
+    max-width: 300px;
+}
+.transaction{
+    border-radius: 10px;
+    box-shadow: -4.828px -4.828px 12px 0 rgba(255, 200, 39, .4), 3px 5px 15px 0 rgba(255, 82, 1, .2);
+    background-color: #0D2D28;
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+.cash-card{
+    box-shadow: -4.828px -4.828px 12px 0 rgba(255, 200, 39, .4), 3px 5px 15px 0 rgba(255, 82, 1, .2);
+    padding: 30px 20px;
+    background-color: #05291C;
+    border-radius: 10px;
+}
+.cash-btn{
+    text-align: start;
+    border: none;
+    font-size: 16px;
+    color: rgb(226, 226, 226);
+    background-color: #05291C;
+}
+.cash-btn-active{
+    border: none;
+    text-align: start;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #FFC827;
+}
+.cashin-inputs{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.cashin-inputs > label{
+    position: absolute;
+    right: 0;
+    background-color: #c7c7c7;
+    padding: 7px;
+    font-size: 15px;
+    width: 170px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.select-payment{
+    display: flex;
+}
+.select-payment > div > div{
+    margin: 5px;
+}
+.msg-details{
+    text-align: center;
+}
+.msg-icon{
+    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
+    color: #1f1f23;
+    font-size: 30px;
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.input-theme{
+    background: #07261b !important;
+    height: 50px;
+}
+.btn-theme{
+    border: 0;
+    border-radius: 10px;
+    color: #1f1f23;
+    cursor: pointer;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    outline: none;
+    padding: 12px 35px;
+    transition: all .3s ease;
+    z-index: 1;
+    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
+}
+.btn-theme:hover{
+    cursor: pointer;
+    box-shadow: 11px 11px 32px rgba(255, 82, 1, .2), -11px -11px 32px rgba(255, 200, 39, .4);
+}
+.msg-div{
+    margin: auto;
+    margin-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1300px;
+    background-color: #092D27;
+    box-shadow: -4.828px -4.828px 12px 0 rgba(255, 200, 39, .4), 3px 5px 15px 0 rgba(255, 82, 1, .2);
+}
+.msg-padding{
+    padding-top: 150px;
+}   
+.msg-table{
+    max-height: 400px;
+    position: relative;
+}
+.msg-table > table > thead > tr th {
+    position: sticky;
+    top: 0;
+    color: #1f1f23;
+    font-size: 18px;
+    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
+}
+.profile-inputs{
+    display: flex;
+    flex-direction: row;
+}
+.profile-inputs > div{
+    margin: 10px 0;
+    width: 100%;
+}
+.profile-inputs > div > input{
+    width: 97%;
+}
+.cp-input{
+    position: relative;
+}
+.cp-input > i{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 10px;
+}
+.custom-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.margin-200{
+    margin-top: 200px;
+}
+.contact-us{
+    z-index: 9999;
+    position: fixed;
+    background-color: #05291C;
+    height: 100vh;
+    width: 100%;
+}
+.main-lg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    height: auto;
+    padding-top: 100px;
+}
+.login-container{
+    background-color: #072B18;
+    backdrop-filter: blur(15px);
+    border: 1px solid hsla(0, 0%, 100%, .17);
+    border-radius: 25px;
+    width: 470px;
+    padding: 50px;
+    
+}
+.login-input{
+    position: relative;
+}
+.login-input > input{
+    background: transparent;
+    padding-left: 50px;
+    border: 1px solid hsla(0, 0%, 100%, .17);
+    border-radius: 5px;
+    color: hsla(0, 0%, 100%, .8);
+    height: 50px;
+    width: 100%;
+}
+.login-input > i{
+    position: absolute;
+    text-align: center;
+    background-color: #213A19;
+    color: #CEA824;
+    font-size:20px;
+    padding: 10px;
+    width: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.login-input > span{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 15px;
+}
+.border-radius-100{
+    border-radius: 100px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.sign-up{
+    padding: 0 40px;
+    max-width: 500px;
+}
+.text-theme{
+    color: #ffc827 ;
+}
+.above-21{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.dl-gcash-apk{
+    display: none;
+}
+@media (max-width: 1616px) {
+    .container-1{
+        padding: 0;
+    }
+    .container-1 {
+        flex-direction: column;
+        margin-top: -100px;
+    }
+}
+@media (max-width: 1440px) {
+    .custom-footer > div{
+        padding: 0 50px;
+    }
+    .custom-nav{
+        padding: 0 50px;
+    }
+    .history-nav{
+        width: 80%;
+    }
+    .history{
+        width: 82%;
+    }
+    .wallet{
+        padding: 0;
+    }
+}
+@media (max-width: 1384px) {
+    .select-payment > div > div{
+        height: 130px;
+    }
+    .msg-div{
+        margin: 0 30px 300px 30px;
+    }
+}
+@media (max-width: 1210px) {
+    .player-details{
+        display: none;
+    }
+}
+@media (max-width:1166px) {
+    .custom-grid{
+        flex-direction: column;
+    }
+    .margin-200{
+        margin-top: 50px;
+    }
+    .cu-responsive{
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+@media(max-width:991px){
+    
+}
+@media (max-width: 972px) {
+    .history-links{
+        flex-direction: column;
+    }
+    .history-links > div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wallet{
+        padding: 10px;
+    }
+}
+@media (max-width: 888px) {
+    .banner-2{
+        max-width: 580px;
+    }
+}
+@media (max-width: 830px) {
+    .main-lg-container{
+        flex-direction: column;
+    }
+    .login-container,
+    .sign-up{
+        margin: auto;        
+    }
+    .sign-up{
+        margin-top: 40px;
+    }
+    .dl-gcash-apk{
+        display: inline;
+    }
+}
+@media (max-width: 768px) {
+    .appletoapple{
+        height: 300px;
+    }
+    .roleta{
+        height: 600px;
+    }
+    .select-payment{
+        flex-direction: column;
+    }
+    .select-payment > div {
+        width: 100%;
+    }
+    .btn-value > button{
+        font-size: 16px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .cash-in > img{
+        height: 70px;
+    }
+    .profile-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-inputs > div{
+        margin-bottom: 10px !important;
+    }
+    .profile-inputs > div > input{
+        width: 100%;
+    }
+}
+@media (max-width: 590px) {
+    .appletoapple{
+        height: 200px;
+    }
+    .roleta{
+        height: 400px;
+    }
+    .roulette{
+        margin: 60px 0;
+    }
+    .banner-2{
+        max-width: 380px;
+    }
+    .container-2{
+        margin-bottom: 100px;
+    }
+    .custom-footer > div{
+        padding: 0;
+    }
+    .terms{
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo > img{
+        height: 50px;
+    }
+    .routers{
+        display: none;
+    }
+    .menu-responsive > i {
+        display: block;
+    }
+    .custom-nav{
+        height: 70px;
+    }
+    .margin-200{
+        margin-top: 100px;
+    }
+    .cu-logo > img{
+        height: 200px;
+    }
+}
+@media (max-width:530px) {
+    .cashin-inputs >label{
+        font-size: 10px;
+        width: 120px;
+    }
+    .cashin-inputs >input{
+        height: 29px;
+    }
+}
+@media (max-width: 425px) {
+    .default-padding{
+        padding:120px 0;
+    }
+    .footer-nav > h6{
+        font-size: 11px;
+    }
+    .cash-out > img{
+        height: 50px;
+    }
+    .cash-in > img{
+        height: 50px;
+    }
+    .select-payment > div > div{
+        height: 110px;
+    }
+    .notice{
+        font-size: 10px;
+    }
+    .msg-padding{
+        padding-top: 30px;
+    }
+    .msg-div{
+        margin: 0 10px 220px 10px;
+    }
+    .breadcrumbs{
+        height: 250px;
+    }
+    .login-container{
+        width: 100%
+    }
+    .dl-btns{
+        width: 270px;
+        height: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .default-padding{
+        padding:120px 0;
+    }
+    .footer-nav > h6{
+        font-size: 11px;
+    }
+    .appletoapple{
+        height: 150px;
+    }
+    .roleta{
+        height: 350px;
+        width: 320px;
+    }
+    .banner-2{
+        max-width: 300px;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .dl-btns{
+        width: 200px;
+        height: 40px;
+    }
+    .sign-up {
+        padding: 0 15px;
+    }
+    .login-container{
+        padding: 15px;
+    }
+}
+@media (max-width:320px) {
+    .cashin-inputs >label{
+        font-size: 7px;
+        width: 90px;
+    }
+    .cashin-inputs >input{
+        height: 25px;
+    }
+    .btn-value > button{
+        font-size: 13px;
+        width: 70px;
+    }
+    .cash-out{
+        height: 50px;
+    }
+}
