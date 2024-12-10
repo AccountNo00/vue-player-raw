@@ -20,7 +20,6 @@ export const actions = {
                 .post("auth/player/login", pl)
                 .then(function (res) {  
                     if (res.status == 200 || res.status == 'success') {
-                        console.log(res.data)
                         commit("setToken", res.data.data);
                         resolve(res);
                     }

@@ -109,12 +109,14 @@ body{
     margin-top: 30px;
 }
 .history-table{
-    max-height: 550px;
+    max-height: 585px;
+    overflow: hidden;
+    font-size: 16px;
 }
-.history-table > table > thead > tr{
+/* .history-table > table > thead > tr{
     position: sticky;
     top: 0;
-}
+} */
 .wallet{
     width: 100%;
     padding: 0 200px;
@@ -201,6 +203,9 @@ body{
 .input-theme{
     background: #07261b !important;
     height: 50px;
+}
+.bg-theme{
+    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
 }
 .btn-theme{
     border: 0;
@@ -347,6 +352,19 @@ body{
 }
 .dl-gcash-apk{
     display: none;
+}
+table{
+    background-color: #032015;
+}
+.table tbody tr td {
+    border-color: hsla(0, 0%, 100%, .17);
+    border-width: 1px;
+    color: #fff;
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #013020 !important;
 }
 @media (max-width: 1616px) {
     .container-1{
