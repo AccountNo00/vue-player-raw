@@ -30,7 +30,12 @@ export default {
         },
 	},
     mounted(){
-        this.startInterval();
+        if(this.$route.path == '/login'){
+            this.stopInterval();
+        }else{
+            this.profileInterval();
+            this.startInterval();
+        }
     }
 };
 </script>

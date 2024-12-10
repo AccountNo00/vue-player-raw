@@ -81,7 +81,7 @@ export default{
                 }
                 const res = await this.playerLogin(pl);
                 if(res.status == 200 || res.status == '200'){
-                    this.$router.push({path:"/"});
+                    window.location.reload();
                 }else{
                     Swal.fire({
                         title: 'Warning!',

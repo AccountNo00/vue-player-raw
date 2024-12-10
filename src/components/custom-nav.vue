@@ -7,10 +7,9 @@
             <i class="mdi mdi-menu"></i>
         </div>
         <div class="routers">
-            <h5>Balance: {{profile.points ? profile.points : 0}}</h5>
             <router-link class="router-link text-white" to="/">Home</router-link>
             <router-link class="router-link text-white" to="/history">History</router-link>
-            <router-link class="router-link text-white" to="/wallet">Wallet</router-link>
+            <router-link class="router-link text-white" to="/wallet"><span class="text-theme">₱ {{profile.points ? profile.points : 0}}</span></router-link>
             <div>
                 <b-dropdown id="dropdown-offset" offset="25" class="m-2">
                     <template #button-content>
@@ -56,8 +55,10 @@ export default{
     },
     components:{
     },
+    computed: {
+        ...mapGetters("auth", ["profile"]),
+    },
     methods:{
-		...mapGetters("auth", ["profile"]),
         contactUs(){
             if(this.contact_modal){
                 this.contact_modal = false;
@@ -73,7 +74,10 @@ export default{
         }
     },
     mounted(){
-        console.log(this.profile)
+        setTimeout(() => {
+            console.log(this.profile.points)
+            
+        }, 2000);
     }
 }
 </script>

@@ -10,7 +10,7 @@ export const state = {
         username: "",
         first_name: "",
         last_name: "",
-        points: 0,
+        points: "",
     }
 };
 export const actions = {
@@ -57,7 +57,7 @@ export const actions = {
                 }
                 )
                 .then(function (res) {
-                    if (res.status === 200) {
+                    if (res.status === 200) {  
                         commit("setProfile", res.data.data);
                     }
                     resolve(true);
@@ -102,7 +102,13 @@ export const getters = {
         return 'Bearer ' + state.token;
     },
     profile(state) {
-        return state.profile;
+        return {
+            id: state.id,
+            username: state.profile.username,
+            first_name: state.profile.first_name,
+            last_name: state.profile.last_name,
+            points: state.profile.points,
+        };
     },
     access(state) {
         var arr = [...state.access]
